@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    display: flex;
+    margin-top: 2vw;
+}
+
+ul{
+    display: flex;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+    font-size: 1.2rem;
+    margin-left: 3vw;
+}
+
+.logo{
+    margin:0 0 0 5vw;
+}
+
+.sneaker{
+    width: 25vw;
+    height: 55vh;
+    border-radius: 10px;
+}
+
+#main-body{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    margin: 5vw 15vw;
+}
+
+.pictext-1{
+    margin-top: 5vw;
+}
+
+.pictext-2{
+    margin-top: 1vw;
+    font-size: 2rem;
+}
+
+.pictext-3{
+    margin-top: 2vw;
+}
+
+.pic-current-price{
+    margin-top: 2vw;
+}
+
+.pic-normal-price{
+    margin-top: 1vw;
+    opacity: 0.5;
+}
