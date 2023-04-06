@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 nav{
@@ -25,6 +26,7 @@ a{
 
 .logo{
     margin:0 0 0 5vw;
+    font-family: 'Russo One', sans-serif;
 }
 
 .sneaker{
@@ -41,6 +43,8 @@ a{
 
 .pictext-1{
     margin-top: 5vw;
+    color: #FF6000;
+    font-weight:bolder;
 }
 
 .pictext-2{
@@ -53,10 +57,55 @@ a{
 }
 
 .pic-current-price{
+    display: flex;
     margin-top: 2vw;
 }
 
 .pic-normal-price{
     margin-top: 1vw;
     opacity: 0.5;
+}
+
+.price-slash{
+    margin-left: 2vw;
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+
+#buttons{
+    margin-top: 2vw;
+    display: flex;
+}
+
+#minus-button, #total, #plus-button{
+    width: 2vw;
+    height: 4vh;
+    border: none;
+}
+
+#cart-button{
+    margin-left: 2vw;
+    width: 15vw;
+    height:6vh;
+    border: none;
+    border-radius: 10px;
+    background-color: #FF6000;
+    color: #fff;
+}
+
+#price{
+    font-size: 2.5rem;
+    font-weight: bolder;
+    text-align: center;
+}
+
+
+#plus-button{
+    margin-left: 3vw;
+}
+
+#total{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-left: 2vw;
 }
