@@ -29,23 +29,37 @@ plusButton.addEventListener("click", add);
 // for the changong of the sneaker-pic
 const itemPic2 = () => {
     sneaker1.src = "images/dushawn-jovic-tr6BWkWMpEs-unsplash.jpg"
+    item2.addEventListener("mouseover", itemPic2);
+    item2.addEventListener("mouseout",itemPic1);
 }
 const itemPic1 = () => {
     sneaker1.src = "images/george-catalina-1vHAP0oeUQE-unsplash.jpg"
+    item1.addEventListener("mouseover", itemPic1);
+    item1.addEventListener("mouseout",itemPic1);
 }
+
 const itemPic3 = () => {
     sneaker1.src = "images/giorgio-trovato-vBWm0FEdxOw-unsplash.jpg"
+    item3.addEventListener("mouseover", itemPic3);
+    item3.addEventListener("mouseout",itemPic1);
 }
+
 const itemPic4 = () => {
     sneaker1.src = "images/hamza-nouasria-9qyGYNJN0nI-unsplash.jpg"
-    item4.style.hover
+    item4.addEventListener("mouseover", itemPic4);
+    item4.addEventListener("mouseout",itemPic1);
 }
+
 const itemPic5 = () => {
     sneaker1.src = "images/paul-gaudriault-a-QH9MAAVNI-unsplash.jpg"
+    item5.addEventListener("mouseover", itemPic5);
+    item5.addEventListener("mouseout",itemPic1);
 }
-item2.addEventListener("mouseover", itemPic2);
-item1.addEventListener("mouseover", itemPic1);
-item3.addEventListener("mouseover", itemPic3);
-item4.addEventListener("mouseover", itemPic4);
-item5.addEventListener("mouseover", itemPic5);
+
+itemPic1();
+itemPic2();
+itemPic3();
+itemPic4();
+itemPic5();
+
 console.log(item1)
