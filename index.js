@@ -11,16 +11,14 @@ let item5 = document.getElementById("item-5")
 // for the add and subtract button
 let count = 0;
 const add = () => {
-    total.innerHTML = count;
     count++;
+    total.innerHTML = count;
+    
 }
 
-const subtract = () =>{
+const subtract = () => {
     count--;
-    total.textContent = count;
-    if (count) {
-        
-    }
+    total.innerHTML = count;
 }
 
 minusButton.addEventListener("click", subtract);
@@ -62,4 +60,3 @@ itemPic3();
 itemPic4();
 itemPic5();
 
-console.log(item1)

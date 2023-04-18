@@ -160,4 +160,14 @@ a{
         align-items: center;
         justify-content: center;
     }
+
+    #cart-button{
+        margin-left: 5vw;
+    }
+
+    #other-items{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }
