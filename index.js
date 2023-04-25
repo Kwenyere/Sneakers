@@ -19,6 +19,9 @@ const add = () => {
 const subtract = () => {
     count--;
     total.innerHTML = count;
+    if (count < 0) {
+        total.innerHTML = 0;
+    }
 }
 
 minusButton.addEventListener("click", subtract);
